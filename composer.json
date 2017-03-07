@@ -1,0 +1,19 @@
+{
+    "name": "wj/swoole-task",
+    "description": "基于swoole扩展的异步并发任务处理服务框架",
+    "type": "library",
+    "version": "master",
+    "require": {
+        "php": ">=5.4",
+    },
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "bin": [
+        "bin/swoole-task.php"
+    ],
+    "autoload": {
+	"psr-4": {
+	    "Ping/SwooleTask\\": "src"
+	}
+    }
+}
